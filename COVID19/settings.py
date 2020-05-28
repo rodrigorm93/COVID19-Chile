@@ -25,7 +25,7 @@ SECRET_KEY = 'd%tr5zum!bn%h9^jed8^jo*t4ydvjwxvi*#z^qs^c4fyt-b58t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://analisis-covid19-chile.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
