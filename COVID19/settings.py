@@ -57,7 +57,7 @@ ROOT_URLCONF = 'COVID19.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Users/Rodrigo/Proyecto COVID19/COVID19/COVID19/plantillas/startbootstrap-sb-admin-2-gh-pages'],
+        'DIRS': [os.path.join(BASE_DIR, 'COVID19/plantillas/startbootstrap-sb-admin-2-gh-pages')]],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
